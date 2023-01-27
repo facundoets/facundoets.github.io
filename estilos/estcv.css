@@ -1,0 +1,151 @@
+
+  * {
+    box-sizing: border-box;
+
+    }
+
+h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(60, 17, 81);
+    text-decoration: underline;
+    text-align: center;
+
+}
+h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic ;
+    text-decoration: underline;
+}
+
+
+.sec1{
+    width: 25%;
+    height: 1000px;
+    padding: 30px;
+    float: left;
+    background-color: rgb(183, 162, 243);
+}
+.marco{
+    width: 750px;
+    height: 800px;
+    border: 5px solid red;
+}
+.foto{
+    width: 240px;
+    height: 240px;
+
+
+}
+.sec2{
+    width: 55%;
+    height: 1000px;
+    padding: 20px;
+    float: left;
+    background-color: antiquewhite;
+}
+.form1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic ;
+    font-weight: bold;
+}
+.sec3{
+   width: 10%;
+   height: 1000px;
+   float: left;
+}
+i{
+    font-weight: 100 ;  
+}
+.stbot{
+    background-color: rgb(136, 165, 210);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(60, 17, 81);
+    text-decoration: underline;
+    text-align: center;
+}
+ 
+.inv{
+    display: none;
+    background-color: rgb(136, 165, 210);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(60, 17, 81);
+    text-decoration: underline;
+    text-align: center;
+   
+}
+
+.pad15{
+    padding: 15px;
+    display: none;
+}
+.inv2{
+    display: none;
+    float: left;
+    width: 140px;
+} 
+.orden1{
+    float: left;
+    display: none;
+    width: 15px;
+}
+.orden{
+    float: left;
+    width: 150px;
+    
+
+}
+.sec4{
+    width: 200px;
+    margin: 1px;
+    float: left;
+}
+.sec5{
+    float: left;
+    width: 325px;
+}
+.est{
+    background-color: rgb(231, 194, 145);
+    font-size: 10px;
+}
+.inv3{
+    display: none;
+    float: left;
+    width: 300px;
+}
+
+.orden2{
+    float: left;
+    width: 15px;
+}
+.orden3{
+    float: left;
+    width: 15px;
+    display: none;
+}
+.inv4{
+    display: none;
+    float: left;
+    width: 200px;
+}
+.img1{
+    width: 400px;
+    height: 200px;
+}
+.izq{
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+}
