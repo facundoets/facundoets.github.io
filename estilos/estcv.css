@@ -18,6 +18,7 @@ h3{
     color: rgb(60, 17, 81);
     text-decoration: underline;
     text-align: center;
+    margin: 0px;
 
 }
 h5{
@@ -33,6 +34,7 @@ h5{
     padding: 30px;
     float: left;
     background-color: rgb(183, 162, 243);
+    
 }
 .marco{
     width: 750px;
@@ -40,8 +42,10 @@ h5{
     border: 5px solid red;
 }
 .foto{
-    width: 200px;
-    height: 240px;
+    width: 100%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
 
 
 }
@@ -51,6 +55,7 @@ h5{
     padding: 20px;
     float: left;
     background-color: antiquewhite;
+    
 }
 .form1{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -148,4 +153,69 @@ i{
     text-align: left;
     font-size: 15px;
     font-weight: bold;
+}
+.izq2{
+    float: left;
+}
+@media screen and (max-width: 1200px ) {
+    .sec1{
+        font-size: 75%;
+        max-height: 100%;
+        padding: 10px;
+    }
+    .sec2{
+        font-size: 75%;
+        max-height: 100%;
+    }
+    .sec3{
+        max-height: 100%;
+ 
+    }
+    .sec5{
+        
+        width:fit-content;
+    }
+    .sec4{
+        font-size: 75%;
+    }
+    h3{
+        width: 100%;
+        text-align: left;
+    } 
+    #id3{
+        padding: 0%;
+        width: 100%;
+        font-size: 85%;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 600px ) {
+    .sec1 {
+        width: 100%;
+        height: auto;
+        font-size: 5vw;
+    }
+    .sec2 {
+        width: 100%;
+        height: auto;
+        font-size: 5vw;
+    }
+    .sec3{
+        display: none;
+    }
+    h1{
+        font-size: 5vw;
+    }
+    h3{
+        font-size: 5vw;
+    }
+    .sec4{
+        width: 100%;
+    }
+    .sec5{
+        width: 100%;
+    }
+    #id3{
+        font-size: 100%;
+    }
 }

@@ -13,7 +13,7 @@ document.getElementById('id4').onclick = function () {
     document.getElementById('id3').style.display ="none";
     document.getElementById('id4').style.display ="none";
     document.getElementById('boton1').style.display="block"
-    
+
     
 }
  
